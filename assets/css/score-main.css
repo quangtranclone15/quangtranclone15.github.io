@@ -1,0 +1,595 @@
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+#score-top {
+  padding-top: 8em;
+  background-image: url("images/bg-img-opacity2.jpg");
+     background-size:cover;
+     height: 100%;
+     width: 100%;
+
+}
+
+#score-main {
+  padding-top: 1.5em;
+  text-align:center;
+  /*background: linear-gradient(to right, #1D4E89 , #4fa49a);*/
+
+}
+
+
+#score-top a {
+    color: #fff;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-bottom: none;
+}
+
+#score-top h2 {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: "Cerebri Sans";
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+#score-top h4 {
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 2em;
+    letter-spacing: 1.2px;
+}
+
+.top-subtitle {
+ 
+  width:75%;
+  margin: auto;
+   margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.top-subtitle h4 {
+    width:75%;
+    margin: auto;
+}
+
+.top-subtitle strong {
+  font-weight: 400;
+  color: #fff;
+}
+
+.get-started-button {
+    /*border: 1px solid;*/
+    border: 0px solid;
+    border-radius: 5px;
+    /*background: rgba(0, 0, 0, 0.15);*/
+    background: #17af7d;
+    margin-bottom: 40px !important;
+    display: inline-block;
+    min-height: 60px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+      /*font-weight: 400;*/
+  font-size: 1.2em;
+  padding-bottom: 15px;
+  letter-spacing: 0.7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+    letter-spacing: 1.5px;
+    color:white;
+}
+.get-started-button:hover {
+    /*border-color: rgba(255, 255, 255, 0.75) !important;*/
+        /*background-color: rgba(255, 255, 255, 0.15) !important;*/
+        background: #19cf86;
+        color: #fff !important;
+    /*height: 200px;*/
+}
+
+.landing-features a {
+   border-bottom: none;
+}
+
+.analyser-homepage {
+  padding: 0 0 0 0 !important;
+}
+
+
+.view-sample {
+    color: #fff;
+  font-size: 1em;
+  padding-bottom: 15px;
+  font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.more-arrow {
+    color: #fff;
+  font-size: 0.7em;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.more-arrow i {
+  font-size: 2.7em;
+}
+
+
+.landing-features {
+  /*background: #1f374d;*/
+  /*background: rgba(0, 0, 0, 0.15) !important;*/
+  border-radius: 30px;
+}
+
+.landing-features ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 3rem 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*box-shadow: 0 5px 70px 0 #000;*/
+    box-shadow: 0 5px 60px 0 #0000007a;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+
+
+.landing-features li {
+    flex: 0 1 100%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    /*background: ;*/
+    /*border-bottom: 1px solid #edf2ff;*/
+    /*color: #fff;*/
+}
+
+
+
+.feature-title h3 {
+   color: #fff;
+    font-size: 1.3em;
+    font-family: "Cerebri Sans";
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#score-main h2 {
+    color: #fff;
+    font-size: 2em;
+    font-family: "Cerebri Sans";
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.icon-feature svg {
+   fill: #249ca9;
+   width: 80px;
+}
+.landing-features h3 {
+    color: #fff;
+}
+
+.landing-features p {
+    color: #fff;
+    letter-spacing: 1.3px;
+    font-size: 0.9em;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer-text a {
+  border-bottom: 1px solid #a1abb5;
+}
+
+.modal {
+      background: #1D4E89 !important;
+      color: #fff;
+}
+
+.modal a.close-modal {
+  border-bottom: none;
+}
+
+#ex1 h2 {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: 0.7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ex1 h4 {
+  color: #fff;
+  font-size: 0.8em;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+@media (min-width: 640px) {
+.landing-features li {
+    flex: 0 1 40%;
+   /* margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;*/
+}
+
+.landing-features h3 {
+    color: #fff;
+}
+
+.landing-features p {
+    color: #fff;
+}
+
+.landing-features li:nth-child(-n+2) {
+  border-bottom: 1px solid #ffffff26;
+}
+
+.landing-features li:nth-child(-n+4) {
+  border-bottom: 1px solid #ffffff26;
+}
+
+.landing-features li:nth-child(odd) {
+    border-right: 1px solid #ffffff26;
+    padding-right: 40px ;
+}
+ 
+.landing-features li:nth-child(even) {
+    padding-left: 40px;
+}
+
+
+}
+
+
+#score-top-pro {
+  padding-top: 8em;
+  background-image: url("images/get-pro-bg.jpg");
+     background-size:cover;
+     height: 100%;
+     width: 100%;
+
+}
+
+
+#score-top-pro a {
+    color: #fff;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-bottom: none;
+}
+
+#score-top-pro h2 {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: "Cerebri Sans";
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+#score-top-pro h4 {
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 2em;
+    letter-spacing: 1.2px;
+}
+
+
+.buy-now-button {
+    /*border: 1px solid;*/
+    border-radius: 5px;
+    background: #17af7d;
+    margin-bottom: 40px !important;
+    display: inline-block;
+    min-height: 60px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+      /*font-weight: 400;*/
+  font-size: 1.2em;
+  padding-bottom: 15px;
+  letter-spacing: 0.7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+    letter-spacing: 1.5px;
+    color:white;
+}
+.buy-now-button:hover {
+    border-color: rgba(255, 255, 255, 0.75) !important;
+    background: #19cf86;
+        /*background-color: rgba(255, 255, 255, 0.15) !important;*/
+        color: #fff !important;
+    /*height: 200px;*/
+}
+
+
+
+#score-main h5 {
+    color: #fff;
+    font-size: 1.5em;
+    /*font-family: "Cerebri Sans";*/
+    letter-spacing: 1.8px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.pro-is-perfect {
+    background: rgba(255, 255, 255, 0.05);
+    border: solid 1px rgba(255, 255, 255, 0.25);
+    border-radius: 0.5em;
+    padding: 1.75em 2.5em 1.75em 2.5em;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+  }
+
+  .pro-is-perfect h4 {
+
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 1.3em;
+    line-height: 2.3em;
+}
+
+#feature-table {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15) !important;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 40px;
+}
+
+
+#feature-table table {
+  border-collapse: collapse; 
+  border-spacing: 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* Style table headers and table data */
+#feature-table th, td {
+  text-align: center;
+  /*padding: 16px;*/
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  font-family: "Cerebri Sans";
+    letter-spacing: 1.2px;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#feature-table strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+#feature-table th:first-child, td:first-child {
+  text-align: left;
+}
+
+
+.fa-check {
+  color: #19cf86 !important;
+}
+
+.fa-remove {
+  color: red !important;
+}
+
+.tooltip-pricing {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #fff; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip-pricing .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-pricing:hover .tooltiptext {
+    visibility: visible;
+}
+
+.full-features-anchor {
+    color: #fff;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.full-features-anchor i {
+  font-size: 1.2em;
+}
+
+
+
+#linkedin-top h2 {
+    /*color: #f5f5f5;*/
+    color: #d1e0f1;
+    font-size: 1em;
+    /*font-family: "Cerebri Sans";*/
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    line-height: 2em;
+    /*color: ;*/
+
+  }
+
+.start-button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#linkedin-top {
+    /*background: linear-gradient(45deg,#163c6b 45%,#1a1d1c 100%);
+    background: linear-gradient(45deg,#163c6b 45%,#17b5aa 100%);
+    background: linear-gradient(45deg,#163c6b 45%,#18aaa4 100%);
+    background: linear-gradient(35deg,#062d5f 56%,#18aaa4 100%);*/
+    background-color: rgb(15, 1, 94);
+    background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));
+}
+
+.linkedin-features svg {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1500px) {
+#linkedin-top {
+  /*padding-left: 7em;
+  padding-right: 7em;*/
+  padding-top: 9em;
+}
+
+.home-left {
+  padding-left: 10em;
+}
+
+.home-right {
+ padding-right: 10em; 
+}
+
+
+}
+
+.report-overview-headline-body h4 {
+  font-size: 0.9em !important;
+  /*font-family: "Cerebri Sans";*/
+  letter-spacing: 1.2px;
+  line-height: 2 !important;
+  width: 70%;
+  margin: 0 auto;
+  /*color:#c7d7e8 !important;*/
+  color:#d1e0f1 !important;
+  text-align: left !important;
+  
+}
+
+.resume-worded-features {
+    display: inline-block;
+    width: 31%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.resume-worded-features:hover {
+     background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+
+.resume-worded-features h3 {
+   color: #e1e9ef !important;
+   font-size: 1.1em !important;
+  font-family: "Cerebri Sans";
+  letter-spacing: 1.3px;
+  line-height: 2 !important;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /*color:#c7d7e8 !important;*/
+  text-align: center !important;
+  
+}
+
+.resume-worded-features h4 {
+   font-size: 0.8em !important;
+  /*font-family: "Cerebri Sans";*/
+  letter-spacing: 1.2px;
+  line-height: 2 !important;
+  /*width: 70%;*/
+  margin: 0 auto;
+  /*color:#c7d7e8 !important;*/
+  color:#d1e0f1 !important;
+  text-align: center !important;
+  margin-top: 10px;
+}
+
+
+
+
+#product-title-above-title h1 {
+    font-size: 0.9em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+}
+
+
+
+
+@media (min-width: 1500px) {
+/*#wave_on_score svg {
+  min-width:100vw;
+  bottom: 0;
+  position: absolute;
+}
+*/
+
+}

@@ -1,0 +1,372 @@
+/*@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}*/
+
+
+
+
+
+
+.home-left {
+  display: inline-block;
+  width: 48%;
+    padding-left: 7em;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-right: 2em;
+    min-width: 200px;
+      vertical-align: top;
+  text-align: left !important;
+}
+
+.home-right {
+    display: inline-block;
+    margin-left: 0em;
+    margin-right: 0em;
+    min-width: 200px;
+    vertical-align: top;
+    margin-top: -4em;
+    overflow: hidden;
+    width: calc(100% - 49%);
+    padding-right: 0em;
+    padding-top: 0em;
+    padding-left: 0em;
+}
+
+
+
+
+
+#home-showcase {
+
+}
+
+
+@media (min-width: 1200px) {
+  #home-showcase-img {
+      position: absolute;
+      left: 55%;
+      width: 900px;
+      margin-top: 0;
+      /*-webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);*/
+      /*-webkit-box-shadow: 24px 16px 72px #9ba2bd;*/
+      /*box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);*/
+      -webkit-box-shadow: 24px 16px 72px #000;
+      /*box-shadow: 24px 16px 72px #9ba2bd;*/
+      box-shadow: 24px 16px 72px rgba(0, 0, 0, 0.68);
+      border-radius: 10px;
+  }
+}
+
+
+
+#score-main h1 {
+    font-family: 'Nunito Sans';
+}
+
+
+#score-main h2 {
+  color: #d1e0f1;
+  font-size: 20px;
+}
+
+
+
+.tabs {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    font-family: 'Cerebri Sans',sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0em;
+}
+
+.tabs > li {
+    transition-duration: .25s;
+    display: table-cell;
+    list-style: none;
+    text-align: center;
+    /* padding: 20px 20px 25px 20px; */
+    padding-top: 35px;
+    padding-bottom: 25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: #a6b0c1
+}
+.feature-tab-title {
+  font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.tabs > li.active {
+    color: #fff;
+    /*background: #2e087d;*/
+  }
+
+
+.features-cta {
+    border-radius: 5px;
+    /* background: rgba(0, 0, 0, 0.15); */
+    background: #17af7d;
+    /* margin-bottom: 40px !important; */
+    display: inline-block;
+    min-height: 30px;
+    padding-top: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* font-weight: 400; */
+    font-size: 1em;
+    padding-bottom: 15px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-top:15px;
+    
+}
+
+
+.right-features {
+
+    padding-top: 20px;
+}
+
+
+#testimonials-main {
+  background: linear-gradient(#507eb1,#709dc7 10%,#dde9f5 38%,#eaf2f9 48%,#f6f9fc 62%); */
+    background: #fff;
+    background: linear-gradient(to bottom,#f9fbfc ,#e1e3fd );
+    border-bottom: 5px solid #e1e2fd;
+}
+
+
+
+
+.featured-spotlight-flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 55px;
+  }
+
+.featured-spotlight-single {
+  display: inline-block;
+  max-width: 300px;
+  min-width: 150px;
+      margin-left: 50px;
+    margin-right: 50px;
+  width: 18%;
+  vertical-align: top;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.featured-spotlight-single img {
+  width: 220px;
+}
+
+
+
+.featured-spotlight-flex-container a {
+  border-bottom: 0px solid;
+}
+
+#testimonials-main h1 {
+  text-align: center;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-family: 'Cerebri Sans', sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.6;
+    padding-top: 20px;
+    color: #161c26 !important;  
+}
+
+
+#testimonials-main {
+  padding-top: 6em;
+  text-align: center;
+}
+
+
+
+
+.single-column-out-of-two {
+  width: 40%;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+      -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    /*padding: 40px 40px 40px 120px;*/
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(11,7,110,.08);
+        box-shadow: 0 0 20px 0 rgba(11,7,110,.08);
+    -webkit-transition-property: color,background-color,-webkit-box-shadow,-webkit-transform;
+    transition-property: color,background-color,-webkit-box-shadow,-webkit-transform;
+    transition-property: color,background-color,box-shadow,transform;
+    transition-property: color,background-color,box-shadow,transform,-webkit-box-shadow,-webkit-transform;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+        text-align: left;
+        vertical-align: top;
+        margin-bottom:35px;
+}
+
+
+.single-column-out-of-two p {
+      font-family: 'Cerebri Sans', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+
+
+    font-weight: 300 !important;
+    color: #23272a !important;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+.single-column-out-of-three {
+    width: 90% !important;
+}
+
+.single-column-out-of-two {
+    width: 90% !important;
+}
+}
+
+
+
+.logos-container-press-features h1 {
+    text-transform: uppercase;
+    color: #560dc7 !important;
+    font-weight: 600 !important;;
+    font-size: 0.8em !important;;
+    margin-bottom: 0px !important;;
+    letter-spacing: 2.5px !important;;
+    margin-top: 20px !important;;
+    text-align: center;
+}
+
+
+/*to review the below*/
+
+
+
+@media (min-width: 1500px) {
+#linkedin-top {
+    padding-top: 9em;
+}
+
+
+#smr-showcase {
+    width: 1091px;
+}
+
+.home-right {
+    margin-top: -4em;
+    
+}
+}
+
+@media (max-width: 1000px) {
+.home-left {
+  width: 100% !important;
+  padding: 20px;
+}
+.home-right {
+  width: 84% !important;
+  display: inline-block;
+  margin-top:10px;
+}  
+.home-right img {
+  width: 100% !important;
+} 
+#home-showcase-img {
+ width: 100% !important;
+}
+.start-button {
+    margin: 0 auto;
+}
+}
+
+
+
+.home-right {
+    overflow: hidden;
+    width: calc(100% - 49%);
+    padding-right: 0em;
+    padding-top: 0em;
+    padding-left: 0em;
+}
+
+.resume-worded-features {
+    vertical-align: top;
+
+}
+
+.resume-worded-features h3 {
+    font-weight: 400;
+}
+
+.footer-text {
+    font-family: 'Cerebri Sans';
+}
+
+ #linkedin-top {
+
+    background-color: rgb(15, 1, 94);
+    /*background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));*/
+    background-image: radial-gradient(at 50% 100%, rgb(84, 22, 164), rgb(15, 1, 94));
+ }
+
+
+
